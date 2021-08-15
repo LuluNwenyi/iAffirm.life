@@ -54,8 +54,7 @@ const TopSection = () => {
                     />
                     <button type="submit" className={buttonStyle}>Affirm</button>
                 </form>
-                <a href="#
-                https://twitter.com/" className="flex items-center text-page-blue">See Affirmations <Arrow/> </a>
+                <a href="https://twitter.com/iaffirmbot" className="flex items-center text-page-blue">See Affirmations <Arrow/> </a>
             </div>
 
             <div className={sunStyle}>
