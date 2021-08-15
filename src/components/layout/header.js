@@ -10,7 +10,7 @@ const headerStyle = `
   items-center
   justify-between
   pb-[21px]
-  pt-[52px]
+  pt-[35px]
   px-[90px]
   border-b-[1px]
 `
