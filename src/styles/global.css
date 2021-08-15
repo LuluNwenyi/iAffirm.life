@@ -6,7 +6,7 @@
 
 @font-face{
     font-family: 'ClashDisplay';
-    src: local('Clash Display Medium'), local('ClashDisplay-Medium'), url(../../fonts/ClashDisplay-Medium.otf);
+    src: local('Clash Display Regular'), local('ClashDisplay-Regular'), url(../../fonts/ClashDisplay-Regular.otf);
     font-weight: 400;
     font-display: swap;
 }
