@@ -9,8 +9,7 @@ const headerStyle = `
   flex
   items-center
   justify-between
-  pb-[21px]
-  pt-[35px]
+  py-[21px]
   px-[90px]
   border-b-[1px]
 `
