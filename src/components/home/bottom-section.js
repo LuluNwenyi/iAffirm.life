@@ -9,7 +9,7 @@ const BottomSection = () => {
     items-center
     px-[90px]
     py-28
-    text-[#3D3D3D]
+    text-[#706E6E]
     bottom
     `
     return (
