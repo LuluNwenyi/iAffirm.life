@@ -30,9 +30,9 @@ justify-center
 const Header = () => (
   <header className={headerStyle}>
     <div className={navStyle}>
-      <span className="pr-[126px]">     
+      <Link to="/" className="pr-[126px]">     
       <Logo/>
-      </span>
+      </Link>
       <nav className="nav">
         <ul className="flex">
           <Link to="/sponsor">💖 Sponsor</Link>
