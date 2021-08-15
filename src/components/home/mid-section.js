@@ -12,7 +12,7 @@ const MidSection = () => {
                     <TextBlob/>
                 </span>
 
-                <div className="w-[548px]">
+                <div className="w-[570px]">
                     <h1  className="font-display text-[32px] mb-[4px]">The psychology of Affirmations</h1>
                     <p className="text-page-dark leading-[27.63px] text-[17px]">
                     Affirmations are a great way to subconsciously construct your mind and encourage yourself to believe in certain things. The subconscious mind plays a very important role in your life because it ensures that you respond the exact way you’re programmed. 

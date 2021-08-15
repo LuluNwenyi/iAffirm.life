@@ -8,6 +8,7 @@ const TopSection = () => {
     const sectionStyle = `
     flex
     justify-between
+    items-center
     px-[90px]
     `
     const leftPartStyle = `
@@ -35,9 +36,9 @@ const TopSection = () => {
     px-[48px]
     `
     const sunStyle = `
-    w-[396px]
+    w-[496px]
     h-[372px]
-    mt-[94px]
+    mt-[74px]
     `
     return (
         <section className={sectionStyle}>
@@ -57,11 +58,10 @@ const TopSection = () => {
                 https://twitter.com/" className="flex items-center text-page-blue">See Affirmations <Arrow/> </a>
             </div>
 
-            <div className="">
+            <div className={sunStyle}>
                 <StaticImage
                 src="../../images/sun illustration.svg"
                 quality="100"
-                className={sunStyle}
                 />
             </div>
         </section>
