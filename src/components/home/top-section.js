@@ -25,11 +25,11 @@ const TopSection = () => {
     flex
     justify-between
     max-w-[504px]
-    hover:border-[#706E6E]
+    hover:border-page-dark
     transition ease-in duration-700
     `
     const buttonStyle= `
-    bg-[#4C53FA]
+    bg-page-blue
     rounded-[4px]
     text-[#ffffff]
     py-[14px]
@@ -45,7 +45,7 @@ const TopSection = () => {
         <section className={sectionStyle}>
             <div className={leftPartStyle}>
                 <h1 className="text-[42px] pt-[170px] pb-[4px] font-display">iAffirm, It's a Positive Thing.</h1>
-                <p className="text-[#706E6E]">Join in the fight back against negativity, with positive affirmations, and make somebody smile through iAffirm. We tweet these affirmations to spread positivity and help those facing tough times.
+                <p className="text-page-dark">Join in the fight back against negativity, with positive affirmations, and make somebody smile through iAffirm. We tweet these affirmations to spread positivity and help those facing tough times.
                 </p>
                 <form className={formStyle}>
                     <input
