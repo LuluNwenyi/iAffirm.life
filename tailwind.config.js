@@ -17,7 +17,7 @@ module.exports = {
       keyframes:{
         "sun-in-out": {
           "0%":{
-            transform: "scale(1))",
+            transform: "scale(2))",
             opacity: "1"
           },
           "100%":{
@@ -27,7 +27,7 @@ module.exports = {
         }
       },
       animation:{
-        "sun-in-out": "sun-in-out 1.5s infinite alternate ease-in-out"
+        "sun-in-out": "sun-in-out 1.2s infinite alternate ease-in-out"
       }
     },
   },

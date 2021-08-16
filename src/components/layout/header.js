@@ -10,7 +10,8 @@ const headerStyle = `
   items-center
   justify-between
   py-[21px]
-  px-[90px]
+  px-[60px]
+  lg:px-[90px]
   border-b-[1px]
 `
 const navStyle= `
@@ -30,10 +31,10 @@ justify-center
 const Header = () => (
   <header className={headerStyle}>
     <div className={navStyle}>
-      <Link to="/" className="pr-[126px]">     
+      <Link to="/" className="lg:pr-[126px] pr-[60px]">     
       <Logo/>
       </Link>
-      <nav className="nav">
+      <nav className="nav hidden md:block">
         <ul className="flex">
           <Link to="/sponsor">💖 Sponsor</Link>
           <li>

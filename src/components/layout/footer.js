@@ -5,6 +5,8 @@ import TwitterIcon from '../assets/twitter'
 const Footer = () => {
     const footerStyle= `
         flex
+        flex-col
+        md:flex-row
         items-center
         justify-between
         bg-[#181818]
@@ -15,7 +17,7 @@ const Footer = () => {
     `
     return (
         <section className={footerStyle}>
-            <ul className="footer-nav flex items-center">
+            <ul className="footer-nav flex items-center text-[14px] md:text-[15px] lg:text-[17px]">
                 <li>Privacy</li>
                 <li>Case Study</li>
                 <li>Sponsor</li>
