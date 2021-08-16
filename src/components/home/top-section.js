@@ -36,9 +36,10 @@ const TopSection = () => {
     px-[48px]
     `
     const sunStyle = `
-    w-[496px]
+    w-[500px]
     h-[372px]
     mt-[74px]
+    text-center
     `
     return (
         <section className={sectionStyle}>
@@ -61,6 +62,7 @@ const TopSection = () => {
                 <StaticImage
                 src="../../images/sun illustration.svg"
                 quality="100"
+                className="animate-sun-in-out ml-16 w-full"
                 />
             </div>
         </section>

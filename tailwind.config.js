@@ -14,6 +14,21 @@ module.exports = {
         "page-black": "#181818",
         "page-grey": "#F6F6F6"
       },
+      keyframes:{
+        "sun-in-out": {
+          "0%":{
+            transform: "scale(1))",
+            opacity: "1"
+          },
+          "100%":{
+            transform: "scale(0.7)",
+            opacity: ".7"
+          }
+        }
+      },
+      animation:{
+        "sun-in-out": "sun-in-out 1.5s infinite alternate ease-in-out"
+      }
     },
   },
   variants: {
