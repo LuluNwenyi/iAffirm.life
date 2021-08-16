@@ -4,6 +4,7 @@ import Logo from "../assets/logo"
 import GithubIcon from "../assets/github"
 import TwitterIcon from "../assets/twitter"
 import Coffee from "../assets/coffee"
+import Menu from "../assets/menu"
 
 const headerStyle = `
   flex
@@ -50,6 +51,9 @@ const Header = () => (
     </div>
 
     <ul className="flex">
+      <span className="block md:hidden" >
+        <Menu/>
+      </span>
       <span className={`${iconBoxStyle} mr-[36px]`}>
         <a href="https://twitter.com/"><TwitterIcon/></a> 
       </span>
