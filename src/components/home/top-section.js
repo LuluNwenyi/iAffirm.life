@@ -48,14 +48,14 @@ const TopSection = () => {
     const sunStyle = `
     lg:w-[500px]
     md:w-[450px]
-    h-[372px]
+    md:h-[372px]
     lg:mt-[64px]
-    md:mt-[84px]
+    mt-[84px]
     `
     return (
         <section className={sectionStyle}>
             <div className={leftPartStyle}>
-                <h1 className="xl:text-[42px] lg:text-[35px] text-[24px] md:mt-[170px] sm:mt-[24px] pb-[4px] font-display">iAffirm, It's a Positive Thing.</h1>
+                <h1 className="xl:text-[42px] lg:text-[35px] text-[24px] md:mt-[170px] sm:mt-[24px]  pb-[4px] font-display">iAffirm, It's a Positive Thing.</h1>
                 <p className="text-page-dark text-[14px] sm:text-[15px] lg:text-[17px] ">Join in the fight back against negativity, with positive affirmations, and make somebody smile through iAffirm. We tweet these affirmations to spread positivity and help those facing tough times.
                 </p>
                 <form className={formStyle}>
