@@ -10,7 +10,8 @@ const headerStyle = `
   items-center
   justify-between
   py-[21px]
-  px-[60px]
+  px-[32px]
+  md:px-[60px]
   lg:px-[90px]
   border-b-[1px]
 `
@@ -23,9 +24,10 @@ w-[48px]
 h-[48px]
 bg-[#F7F7F7]
 rounded-[4px]
-flex
+md:flex
 items-center
 justify-center
+hidden
 `
 
 const Header = () => (

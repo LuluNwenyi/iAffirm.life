@@ -13,7 +13,9 @@ const Footer = () => {
         pt-[40px]
         pb-[34px]
         text-[#FFFFFF]
-        px-[94px]
+        px-[32px]
+        md:px-[60px]
+        lg:px-[90px]
     `
     return (
         <section className={footerStyle}>

@@ -9,7 +9,8 @@ const TopSection = () => {
     md:flex-row
     justify-between
     items-center
-    px-[60px]
+    px-[32px]
+    md:px-[60px]
     lg:px-[90px]
     `
     const leftPartStyle = `
@@ -46,15 +47,15 @@ const TopSection = () => {
     `
     const sunStyle = `
     lg:w-[500px]
-    w-[450px]
+    md:w-[450px]
     h-[372px]
     lg:mt-[64px]
-    mt-[84px]
+    md:mt-[84px]
     `
     return (
         <section className={sectionStyle}>
             <div className={leftPartStyle}>
-                <h1 className="xl:text-[42px] lg:text-[35px] text-[24px] md:pt-[170px] pt-[24px] pb-[4px] font-display">iAffirm, It's a Positive Thing.</h1>
+                <h1 className="xl:text-[42px] lg:text-[35px] text-[24px] md:mt-[170px] sm:mt-[24px] pb-[4px] font-display">iAffirm, It's a Positive Thing.</h1>
                 <p className="text-page-dark text-[14px] sm:text-[15px] lg:text-[17px] ">Join in the fight back against negativity, with positive affirmations, and make somebody smile through iAffirm. We tweet these affirmations to spread positivity and help those facing tough times.
                 </p>
                 <form className={formStyle}>
@@ -73,7 +74,8 @@ const TopSection = () => {
                 <StaticImage
                 src="../../images/sun illustration.svg"
                 quality="100"
-                className="animate-sun-in-out mt-12 lg:mt-8 xl:mt-0"
+                className="animate-sun-in-out  md:mt-16 lg:mt-8 xl:mt-0"
+                placeholder="blurred"
                 />
             </div>
         </section>

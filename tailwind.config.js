@@ -17,7 +17,7 @@ module.exports = {
       keyframes:{
         "sun-in-out": {
           "0%":{
-            transform: "scale(2))",
+            transform: "scale(1.5))",
             opacity: "1"
           },
           "100%":{

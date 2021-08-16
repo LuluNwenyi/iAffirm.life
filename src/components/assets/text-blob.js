@@ -2,7 +2,7 @@ import React from 'react'
 
 const TextBlob = () => {
     return (
-        <svg className="h-[362px] xl:w-[482px] lg:w-[350px] md:w-[300px] w-[482px] "  viewBox="0 0 482 362" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="h-[362px] xl:w-[482px] lg:w-[350px] md:w-[300px] w-full "  viewBox="0 0 482 362" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_f)">
 <rect x="49" y="49" width="384" height="83.3939" fill="#FEF4FC"/>
 <rect x="49" y="111.061" width="384" height="83.3939" fill="#FEFEF4"/>
