@@ -25,5 +25,9 @@ body{
 .bottom a{
     @apply underline;
     @apply font-semibold;
+    @apply tracking-tighter;
+}
+input::placeholder{
+    @apply text-[13px] lg:text-[16px];
 }
 }

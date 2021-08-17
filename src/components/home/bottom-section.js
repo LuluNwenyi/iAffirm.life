@@ -31,6 +31,7 @@ const BottomSection = () => {
                 <StaticImage
                 src="../assets/icons-src/stay positive illustration.svg"
                 placeholder="blurred"
+                alt="blob with stay positive text in it"
                 />
             </div>
         </section>
