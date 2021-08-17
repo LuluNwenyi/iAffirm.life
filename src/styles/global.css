@@ -19,12 +19,15 @@ body{
     @apply pr-[35px];
     @apply pb-[17px] md:pb-0;
 }
-.nav ul a, .footer-nav li{
+.nav ul li, .footer-nav li{
     @apply lg:pr-[64px] md:pr-[35px];
+}
+.mobile-nav ul li{
+    @apply border-b-[1px];
+    @apply py-[24px];
 }
 .bottom a{
     @apply underline;
-    @apply font-semibold;
     @apply tracking-tighter;
 }
 input::placeholder{

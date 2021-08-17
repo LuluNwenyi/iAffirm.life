@@ -29,7 +29,7 @@ const AffirmationForm = () => {
     md:border-[1px]
     rounded-[8px]
     py-[6px]
-    pl-[24px]
+    md:pl-[24px]
     pr-[7px]
     flex
     flex-col

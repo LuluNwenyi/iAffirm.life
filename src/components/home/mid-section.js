@@ -14,7 +14,7 @@ const MidSection = () => {
 
                 <div className="lg:w-[570px] md:w-[80%] px-[17px] md:px-0 -mt-8">
                     <h1  className="font-display lg:text-[27px] xl:text-[32px] text-[20px] mb-[4px]">The psychology of Affirmations</h1>
-                    <p className="text-page-dark leading-[27.63px] text-[14px] md:text-[15px] lg:text-[17px]">
+                    <p className="text-page-dark md:leading-[27.63px] text-[14px] md:text-[15px] lg:text-[17px]">
                     Affirmations are a great way to subconsciously construct your mind and encourage yourself to believe in certain things. The subconscious mind plays a very important role in your life because it ensures that you respond the exact way you’re programmed. 
                     This is why positive affirmations are used to ensure positivity; your subconscious mind obeys the commands from your conscious mind.
                     </p>
