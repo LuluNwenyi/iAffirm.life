@@ -58,14 +58,14 @@ const Header = () => {
   </header>
 
   {/* mobile navigation */}
-  {showMenu && (
-      <div className={`px-[32px] block md:hidden border-t-[2px] border-page-blue shadow-md w-[80%] absolute bg-white z-[20] left-[10vw] transition-all duration-1000 delay-75 ease-in top-[60px] `}>
+  {/* {showMenu && ( */}
+      <div className={`px-[32px] block md:hidden border-t-[2px] border-page-blue shadow-md w-[80%] absolute bg-white z-[20] left-[10vw] transition-[top] duration-500 ease-in ${!showMenu ? "-top-72" : "top-[60px]"}`}>
        <LeftNav navStyle="mobile-nav"/>
        <div className="flex items-center py-[37px]">
          <RightNav iconBoxStyle={`${iconBoxStyle} md:hidden flex`}/>
        </div>
       </div>
-  )}
+  {/* )} */}
   </>
   )
 }
