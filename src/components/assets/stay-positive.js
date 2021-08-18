@@ -2,7 +2,7 @@ import React from 'react'
 
 const StayPositive = () => {
     return (
-        <svg viewBox="0 0 352 384" className="w-[352px] md:w-[384px] h-[241px] md:h-[263px] " fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 500 384" className="h-[362px] xl:w-[482px] lg:w-[350px] md:w-[300px] w-full" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_f)">
 <rect width="384" height="83.3939" transform="matrix(1 0 0 -1 60 323.758)" fill="#FEF4FC"/>
 <rect width="384" height="83.3939" transform="matrix(1 0 0 -1 60 261.697)" fill="#FEFEF4"/>

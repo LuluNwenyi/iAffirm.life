@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../assets/logo'
 import StayPositive from '../assets/stay-positive'
 import { StaticImage } from 'gatsby-plugin-image'
+import Heart from '../assets/heart'
 
 const BottomSection = () => {
     const sectionStyle=`
@@ -29,13 +30,23 @@ const BottomSection = () => {
                 </p>
             </div>
 
-            <div className="-ml-20 ">
+            <div className="relative" >
                 {/* <StaticImage
-                src="../assets/icons-src/stay positive illustration.svg"
+                src="../assets/icons-src/stay-positive.svg"
                 placeholder="blurred"
                 alt="blob with stay positive text in it"
+                quality="100"
+                layout="fixed"
+                width={200}
+                height={200}
                 /> */}
-                <StayPositive/>
+                <span className="flex justify-center items-center lg:-mr-16">
+                    <StayPositive/>
+                    <span className="absolute  w-8 xl:left-[335px]  lg:left-[245px] left-52 bottom-[165px] hidden md:block" >
+                    <Heart/>
+                    </span>
+                </span>
+               
             </div>
         </section>
     )

@@ -7,7 +7,7 @@ const MidSection = () => {
         <div className="px-[32px] md:px-[60px] lg:px-[90px] flex flex-col items-center pt-4">
             <CurlyArrow/>
 
-            <section className="flex flex-col md:flex-row md:justify-between justify-center items-center rounded-[12px] w-full md:pr-[66px] pb-8 -mt-16 bg-gradient-to-r from-[#f8f8ff] to-[#fdf4fe]">
+            <section className="flex flex-col md:flex-row md:justify-between justify-center items-center rounded-[12px] w-full md:pr-[66px] p-8 md:pt-8 -mt-16 bg-gradient-to-r from-[#f8f8ff] to-[#fdf4fe]">
                 <span className="">
                     <TextBlob/>
                 </span>
