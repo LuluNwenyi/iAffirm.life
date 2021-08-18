@@ -15,7 +15,8 @@ const BottomSection = () => {
     px-[32px]
     md:px-[60px]
     lg:px-[90px]
-    py-28
+    lg:pb-28
+    pt-28
     text-[#706E6E]
     bottom
     `
@@ -31,15 +32,6 @@ const BottomSection = () => {
             </div>
 
             <div className="relative" >
-                {/* <StaticImage
-                src="../assets/icons-src/stay-positive.svg"
-                placeholder="blurred"
-                alt="blob with stay positive text in it"
-                quality="100"
-                layout="fixed"
-                width={200}
-                height={200}
-                /> */}
                 <span className="flex justify-center items-center lg:-mr-16">
                     <StayPositive/>
                     <span className="absolute  w-8 xl:left-[335px]  lg:left-[245px] left-52 bottom-[165px] hidden md:block" >
