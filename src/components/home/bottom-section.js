@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../assets/logo'
+import StayPositive from '../assets/stay-positive'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const BottomSection = () => {
@@ -33,6 +34,7 @@ const BottomSection = () => {
                 placeholder="blurred"
                 alt="blob with stay positive text in it"
                 />
+                {/* <StayPositive/> */}
             </div>
         </section>
     )
