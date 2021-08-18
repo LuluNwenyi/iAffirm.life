@@ -13,6 +13,7 @@ const TopSection = () => {
     px-[32px]
     md:px-[60px]
     lg:px-[90px]
+    md:pt-[50px]
     `
     const leftPartStyle = `
     md:w-[612px]  
