@@ -8,7 +8,8 @@ const BottomSection = () => {
     flex
     flex-col
     md:flex-row
-    justify-between
+    md:justify-between
+    justify-center
     items-center
     px-[32px]
     md:px-[60px]
@@ -28,13 +29,13 @@ const BottomSection = () => {
                 </p>
             </div>
 
-            <div className="-mr-8">
-                <StaticImage
+            <div className="-ml-20 ">
+                {/* <StaticImage
                 src="../assets/icons-src/stay positive illustration.svg"
                 placeholder="blurred"
                 alt="blob with stay positive text in it"
-                />
-                {/* <StayPositive/> */}
+                /> */}
+                <StayPositive/>
             </div>
         </section>
     )
