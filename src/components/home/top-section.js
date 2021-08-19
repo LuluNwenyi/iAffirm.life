@@ -31,10 +31,20 @@ const TopSection = () => {
     lg:mt-[64px]
     mt-[84px]
     `
+    const headingStyle = `
+    xl:text-[42px] 
+    lg:text-[35px] 
+    text-[24px] 
+    md:mt-[170px] 
+    sm:mt-[24px]  
+    pb-[4px] 
+    font-display 
+    text-black
+    `
     return (
         <section className={sectionStyle}>
             <div className={leftPartStyle}>
-                <h1 className="xl:text-[42px] lg:text-[35px] text-[24px] md:mt-[170px] sm:mt-[24px]  pb-[4px] font-display text-black">iAffirm, It's a Positive Thing.</h1>
+                <h1 className={headingStyle}>iAffirm, It's a Positive Thing.</h1>
                 <p className="">Join in the fight back against negativity, with positive affirmations, and make somebody smile through iAffirm. We tweet these affirmations to spread positivity and help those facing tough times.
                 </p>
                 
