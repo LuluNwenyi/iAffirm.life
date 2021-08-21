@@ -22,7 +22,7 @@ const AffirmationForm = () => {
             setTimeout(function(){
                 setLoading(false)
                 setAffirmationEntered(true)
-            }, 3000)
+            }, 1000)
         })
        
     }
