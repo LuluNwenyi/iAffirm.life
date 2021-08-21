@@ -1,7 +1,6 @@
 import React from 'react'
 import Logo from '../assets/logo'
 import StayPositive from '../assets/stay-positive'
-import { StaticImage } from 'gatsby-plugin-image'
 import Heart from '../assets/heart'
 
 const BottomSection = () => {

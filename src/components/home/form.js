@@ -8,17 +8,31 @@ const AffirmationForm = () => {
     const [affirmationEntered, setAffirmationEntered] = useState(null)
     const [loading, setLoading] = useState(false)
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if(affirmation == ""){
-            setAffirmationEntered(false)
-        }else{
-            setLoading(true)
-            alert(affirmation)
+    let pageData = {text: affirmation}
+
+    const sendData = async () => {
+        setLoading(true)
+        await fetch(`/api/add-affirmation`, {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify(pageData)
+        }).then(
+            res => {return res.json()}
+        ).then(() => {
             setTimeout(function(){
                 setLoading(false)
                 setAffirmationEntered(true)
             }, 3000)
+        })
+       
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if(affirmation === ""){
+            setAffirmationEntered(false)
+        }else{
+            sendData()
         }
         setAffirmation("")
     }
