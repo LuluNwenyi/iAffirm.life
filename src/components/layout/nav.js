@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import GithubIcon from "../assets/github"
 import TwitterIcon from "../assets/twitter"
 import MobileCoffee from "../assets/mobile-coffee"
+import Coffee from "../assets/coffee"
+
 
 export const LeftNav = ({navStyle, ulStyle}) => {
     return(
@@ -28,7 +30,7 @@ export const RightNav = ({iconBoxStyle}) => {
       <a href="https://twitter.com/"><TwitterIcon/></a> 
     </span>
     <span className={iconBoxStyle}>
-      <a href="https://buymeacoffee.com/lulunwenyi"><MobileCoffee/></a> 
+      <a href="https://buymeacoffee.com/lulunwenyi"><Coffee/> <MobileCoffee/></a> 
     </span>
       </>
   )
