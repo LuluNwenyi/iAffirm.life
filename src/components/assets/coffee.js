@@ -2,7 +2,7 @@ import React from 'react'
 
 const Coffee = () => {
     return (
-        <svg  className="w-[14px] md:w-[16px] h-[19px] md:h-[24px]" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg  className="w-[14px] md:w-[16px] h-[19px] md:h-[24px] z-20" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0)">
             <path d="M14.3187 5.38416L14.3028 5.37482L14.2661 5.36362C14.2808 5.37609 14.2993 5.38333 14.3187 5.38416Z" fill="#0D0C22"/>
             <path d="M14.5501 7.03796L14.5324 7.04294L14.5501 7.03796Z" fill="#0D0C22"/>
