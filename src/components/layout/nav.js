@@ -28,7 +28,7 @@ export const RightNav = ({iconBoxStyle}) => {
       <a href="https://twitter.com/"><TwitterIcon/></a> 
     </span>
     <span className={iconBoxStyle}>
-      <a href="https://buymeacoffee.com/lulunwenyi"><TwitterIcon/></a> 
+      <a href="https://buymeacoffee.com/lulunwenyi"><Coffee/></a> 
     </span>
       </>
   )
