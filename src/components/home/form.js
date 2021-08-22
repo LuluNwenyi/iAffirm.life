@@ -19,10 +19,10 @@ const AffirmationForm = () => {
         }).then(
             res => {return res.json()}
         ).then(() => {
-            setTimeout(function(){
+            // setTimeout(function(){
                 setLoading(false)
                 setAffirmationEntered(true)
-            }, 1000)
+            // }, 1000)
         })
        
     }
