@@ -1,8 +1,4 @@
-import React from 'react'
-
-const MobileCoffee = () => {
-    return (
-        <svg width="12" height="18" className="md:hidden" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
 <path d="M10.7392 4.03811L10.7273 4.03111L10.6997 4.02271C10.7108 4.03206 10.7247 4.03749 10.7392 4.03811Z" fill="#0D0C22"/>
 <path d="M10.9127 5.27847L10.8994 5.28221L10.9127 5.27847Z" fill="#0D0C22"/>
@@ -24,8 +20,4 @@ const MobileCoffee = () => {
 <rect width="12" height="17.362" fill="white" transform="translate(0 -0.000595093)"/>
 </clipPath>
 </defs>
-</svg>  
-    )
-}
-
-export default MobileCoffee
+</svg>
