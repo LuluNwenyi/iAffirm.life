@@ -93,7 +93,7 @@ const AffirmationForm = () => {
             type="submit" 
             className={buttonStyle}
             >
-                {loading ? <>Affirm <Loading/></> : "Affirm"}
+                {loading ? <Loading/> : "Affirm"}
             </button>
         </form>
 
