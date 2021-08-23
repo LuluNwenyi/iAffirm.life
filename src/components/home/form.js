@@ -19,10 +19,9 @@ const AffirmationForm = () => {
         }).then(
             res => {return res.json()}
         ).then(() => {
-            // setTimeout(function(){
                 setLoading(false)
                 setAffirmationEntered(true)
-            // }, 1000)
+                setAffirmation("")
         })
        
     }
@@ -34,7 +33,6 @@ const AffirmationForm = () => {
         }else{
             sendData()
         }
-        setAffirmation("")
     }
 
     const formStyle= `
