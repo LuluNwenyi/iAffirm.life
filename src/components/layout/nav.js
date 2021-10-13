@@ -16,7 +16,7 @@ export const LeftNav = ({navStyle, ulStyle}) => {
                 <GithubIcon/>Github
             </a>
           </li>
-          <li><Link to="/docs">📃 Docs</Link></li>
+          {/* <li><Link to="/docs">📃 Docs</Link></li> */}
         </ul>
       </nav>
     )
@@ -27,7 +27,7 @@ export const RightNav = ({iconBoxStyle}) => {
   return(
       <>
       <span className={`${iconBoxStyle} mr-[36px]`}>
-      <a href="https://twitter.com/"><TwitterIcon/></a> 
+      <a href="https://twitter.com/iAffirmBot"><TwitterIcon/></a> 
     </span>
     <span className={iconBoxStyle}>
       <a href="https://buymeacoffee.com/lulunwenyi"><Coffee/> <MobileCoffee/></a> 
